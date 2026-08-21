@@ -5,23 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Prosper Car Hire - reliable and flexible car hire services in Lusaka, Zambia." />
   <title>Prosper Car Hire | Lusaka, Zambia</title>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- Website Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
+  <!-- ==================== HEADER ==================== -->
   <header class="site-header">
     <nav class="navbar container">
+
       <a class="brand" href="#home" aria-label="Prosper Car Hire home">
-        <span class="brand-mark">P</span>
+        <span class="brand-mark"><img class="prosper-logo" src="prosperlogo1.jpg" alt="Prosper Car Hire"></span>
         <span>
           <strong>Prosper</strong>
           <small>CAR HIRE</small>
         </span>
       </a>
 
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
 
       <div class="nav-links">
         <a href="#home">Home</a>
@@ -29,239 +42,638 @@
         <a href="#how-it-works">How It Works</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a class="nav-whatsapp" href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20interested%20in%20hiring%20a%20car.%20I%27d%20like%20to%20enquire%20about%20your%20available%20vehicles%20and%20rates." target="_blank" rel="noopener">WhatsApp Us</a>
+
+        <a
+          class="nav-whatsapp"
+          href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20interested%20in%20hiring%20a%20car.%20I%27d%20like%20to%20enquire%20about%20your%20available%20vehicles%20and%20rates."
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          WhatsApp Us
+        </a>
       </div>
+
     </nav>
   </header>
 
+
   <main>
+
+    <!-- ==================== HERO ==================== -->
     <section id="home" class="hero">
+
       <div class="hero-overlay"></div>
+
       <div class="container hero-content">
-        <p class="eyebrow">CAR HIRE IN LUSAKA, ZAMBIA</p>
-        <h1>Reliable Cars.<br><span>Flexible Hire.</span></h1>
+
+        <p class="eyebrow">
+          CAR HIRE IN LUSAKA, ZAMBIA
+        </p>
+
+        <h1>
+          Reliable Cars.<br>
+          <span>Flexible Hire.</span>
+        </h1>
+
         <p class="hero-text">
           Your journey starts here. We're building a simple, reliable and convenient
           car-hire experience for individuals, families and businesses.
         </p>
+
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20interested%20in%20hiring%20a%20car.%20I%27d%20like%20to%20enquire%20about%20your%20available%20vehicles%20and%20rates." target="_blank" rel="noopener">
-            <span>💬</span> Chat on WhatsApp
+
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20interested%20in%20hiring%20a%20car.%20I%27d%20like%20to%20enquire%20about%20your%20available%20vehicles%20and%20rates."
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+            Chat on WhatsApp
           </a>
-          <a class="btn btn-outline" href="#fleet">Explore Our Fleet</a>
+
+          <a class="btn btn-outline" href="#fleet">
+            Explore Our Fleet
+          </a>
+
         </div>
+
         <div class="hero-trust">
           <span>✓ Convenient booking</span>
           <span>✓ Flexible rental options</span>
           <span>✓ Lusaka based</span>
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- ==================== FLEET ==================== -->
     <section id="fleet" class="section fleet-section">
+
       <div class="container">
+
         <div class="section-heading">
+
           <div>
             <p class="eyebrow dark">OUR FLEET</p>
-            <h2>Find the right car<br>for your journey.</h2>
+
+            <h2>
+              Find the right car<br>
+              for your journey.
+            </h2>
           </div>
-          <p>Our fleet is currently being prepared. Contact us on WhatsApp for vehicle availability, rates and upcoming additions.</p>
+
+          <p>
+            Our fleet is currently being prepared. Contact us on WhatsApp
+            for vehicle availability, rates and upcoming additions.
+          </p>
+
         </div>
 
+
         <div class="fleet-grid">
+
+          <!-- Car 1 -->
           <article class="car-card">
+
             <div class="car-image car-image-one">
-              <div class="coming-soon">COMING SOON</div>
+
+              <div class="coming-soon">
+                COMING SOON
+              </div>
+
               <div class="car-placeholder">
-                <span>🚘</span>
+                <i class="fa-solid fa-car"></i>
                 <small>Vehicle image</small>
               </div>
+
             </div>
+
             <div class="car-info">
+
               <div>
                 <p class="car-type">SEDAN</p>
                 <h3>Comfort Sedan</h3>
               </div>
-              <p class="car-description">Ideal for everyday travel, business trips and city driving.</p>
+
+              <p class="car-description">
+                Ideal for everyday travel, business trips and city driving.
+              </p>
+
               <div class="car-specs">
                 <span>5 Seats</span>
                 <span>Automatic</span>
                 <span>Petrol</span>
               </div>
-              <a class="card-link whatsapp-link" data-car="Comfort Sedan" href="#" target="_blank" rel="noopener">Inquire on WhatsApp <span>→</span></a>
+
+              <a
+                class="card-link whatsapp-link"
+                data-car="Comfort Sedan"
+                href="#"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Inquire on WhatsApp
+                </span>
+                <span>→</span>
+              </a>
+
             </div>
+
           </article>
 
+
+          <!-- Car 2 -->
           <article class="car-card">
+
             <div class="car-image car-image-two">
-              <div class="coming-soon">COMING SOON</div>
+
+              <div class="coming-soon">
+                COMING SOON
+              </div>
+
               <div class="car-placeholder">
-                <span>🚙</span>
+                <i class="fa-solid fa-car-side"></i>
                 <small>Vehicle image</small>
               </div>
+
             </div>
+
             <div class="car-info">
+
               <div>
                 <p class="car-type">SUV</p>
                 <h3>Family SUV</h3>
               </div>
-              <p class="car-description">More space and comfort for families, groups and longer journeys.</p>
+
+              <p class="car-description">
+                More space and comfort for families, groups and longer journeys.
+              </p>
+
               <div class="car-specs">
                 <span>5–7 Seats</span>
                 <span>Automatic</span>
                 <span>Petrol/Diesel</span>
               </div>
-              <a class="card-link whatsapp-link" data-car="Family SUV" href="#" target="_blank" rel="noopener">Inquire on WhatsApp <span>→</span></a>
+
+              <a
+                class="card-link whatsapp-link"
+                data-car="Family SUV"
+                href="#"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Inquire on WhatsApp
+                </span>
+                <span>→</span>
+              </a>
+
             </div>
+
           </article>
 
+
+          <!-- Car 3 -->
           <article class="car-card">
+
             <div class="car-image car-image-three">
-              <div class="coming-soon">COMING SOON</div>
+
+              <div class="coming-soon">
+                COMING SOON
+              </div>
+
               <div class="car-placeholder">
-                <span>🛻</span>
+                <i class="fa-solid fa-truck-pickup"></i>
                 <small>Vehicle image</small>
               </div>
+
             </div>
+
             <div class="car-info">
+
               <div>
                 <p class="car-type">PICKUP</p>
                 <h3>Utility Pickup</h3>
               </div>
-              <p class="car-description">A practical option for work, business and journeys requiring extra utility.</p>
+
+              <p class="car-description">
+                A practical option for work, business and journeys requiring extra utility.
+              </p>
+
               <div class="car-specs">
                 <span>5 Seats</span>
                 <span>Manual/Auto</span>
                 <span>Diesel</span>
               </div>
-              <a class="card-link whatsapp-link" data-car="Utility Pickup" href="#" target="_blank" rel="noopener">Inquire on WhatsApp <span>→</span></a>
+
+              <a
+                class="card-link whatsapp-link"
+                data-car="Utility Pickup"
+                href="#"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  Inquire on WhatsApp
+                </span>
+                <span>→</span>
+              </a>
+
             </div>
+
           </article>
+
         </div>
+
 
         <div class="fleet-note">
+
           <strong>Looking for a specific vehicle?</strong>
-          <span>Tell us what you need and we'll help you find the right option.</span>
-          <a href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20looking%20for%20a%20specific%20type%20of%20vehicle.%20Can%20you%20help%20me%3F" target="_blank" rel="noopener">Ask on WhatsApp →</a>
+
+          <span>
+            Tell us what you need and we'll help you find the right option.
+          </span>
+
+          <a
+            href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20looking%20for%20a%20specific%20type%20of%20vehicle.%20Can%20you%20help%20me%3F"
+            target="_blank"
+            rel="noopener"
+          >
+            Ask on WhatsApp →
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- ==================== HOW IT WORKS ==================== -->
     <section id="how-it-works" class="section steps-section">
+
       <div class="container">
+
         <div class="center-heading">
-          <p class="eyebrow dark">HOW IT WORKS</p>
-          <h2>Hiring a car should be simple.</h2>
-          <p>We've kept the process straightforward so you can spend less time arranging your rental and more time on your journey.</p>
+
+          <p class="eyebrow dark">
+            HOW IT WORKS
+          </p>
+
+          <h2>
+            Hiring a car should be simple.
+          </h2>
+
+          <p>
+            We've kept the process straightforward so you can spend less time
+            arranging your rental and more time on your journey.
+          </p>
+
         </div>
+
 
         <div class="steps-grid">
+
           <div class="step">
             <div class="step-number">01</div>
+
             <h3>Choose your car</h3>
-            <p>Browse our available vehicles or tell us what type of car you're looking for.</p>
+
+            <p>
+              Browse our available vehicles or tell us what type of car you're looking for.
+            </p>
           </div>
+
+
           <div class="step">
             <div class="step-number">02</div>
+
             <h3>Send an inquiry</h3>
-            <p>Message Prosper Car Hire directly on WhatsApp to ask about availability and rates.</p>
+
+            <p>
+              Message Prosper Car Hire directly on WhatsApp to ask about availability and rates.
+            </p>
           </div>
+
+
           <div class="step">
             <div class="step-number">03</div>
+
             <h3>Confirm your hire</h3>
-            <p>We'll discuss the details, requirements and rental arrangements with you.</p>
+
+            <p>
+              We'll discuss the details, requirements and rental arrangements with you.
+            </p>
           </div>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- ==================== ABOUT ==================== -->
     <section id="about" class="section about-section">
+
       <div class="container about-grid">
+
         <div class="about-visual">
+
           <div class="about-card">
-            <span class="about-icon">P</span>
-            <span>PROSPER<br><small>CAR HIRE</small></span>
+
+           <img class="about-logo" src="prosperlogo1.jpg" alt="Prosper Car Hire Logo">
+
+        
           </div>
+
         </div>
+
+
         <div class="about-content">
-          <p class="eyebrow dark">ABOUT PROSPER</p>
-          <h2>Simple. Reliable.<br>Customer-focused.</h2>
-          <p>
-            Prosper Car Hire is a Lusaka-based vehicle hire business focused on making
-            car rental convenient and straightforward.
+
+          <p class="eyebrow dark">
+            ABOUT PROSPER
           </p>
+
+          <h2>
+            Simple. Reliable.<br>
+            Customer-focused.
+          </h2>
+
           <p>
-            Whether you're travelling around Lusaka, visiting Zambia, handling business
-            commitments or simply need a vehicle for a few days, we're here to help you
-            find a suitable rental option.
+            Prosper Car Hire is a Lusaka-based vehicle hire business focused
+            on making car rental convenient and straightforward.
           </p>
+
+          <p>
+            Whether you're travelling around Lusaka, visiting Zambia, handling
+            business commitments or simply need a vehicle for a few days,
+            we're here to help you find a suitable rental option.
+          </p>
+
+
           <div class="about-points">
-            <div><span>✓</span> Convenient WhatsApp inquiries</div>
-            <div><span>✓</span> Flexible rental arrangements</div>
-            <div><span>✓</span> Friendly customer service</div>
+
+            <div>
+              <span>✓</span>
+              Convenient WhatsApp inquiries
+            </div>
+
+            <div>
+              <span>✓</span>
+              Flexible rental arrangements
+            </div>
+
+            <div>
+              <span>✓</span>
+              Friendly customer service
+            </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- ==================== CTA ==================== -->
     <section class="cta-section">
+
       <div class="container cta-content">
+
         <div>
-          <p class="eyebrow">READY TO GET STARTED?</p>
-          <h2>Let's get you on the road.</h2>
-          <p>Send us a WhatsApp message and tell us what kind of vehicle you need.</p>
+
+          <p class="eyebrow">
+            READY TO GET STARTED?
+          </p>
+
+          <h2>
+            Let's get you on the road.
+          </h2>
+
+          <p>
+            Send us a WhatsApp message and tell us what kind of vehicle you need.
+          </p>
+
         </div>
-        <a class="btn btn-light" href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27d%20like%20to%20make%20an%20inquiry%20about%20car%20hire." target="_blank" rel="noopener">
-          💬 Start a WhatsApp Chat
+
+
+        <a
+          class="btn btn-light"
+          href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27d%20like%20to%20make%20an%20inquiry%20about%20car%20hire."
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          Start a WhatsApp Chat
         </a>
+
       </div>
+
     </section>
 
+
+    <!-- ==================== CONTACT ==================== -->
     <section id="contact" class="section contact-section">
+
       <div class="container">
+
         <div class="section-heading contact-heading">
+
           <div>
-            <p class="eyebrow dark">CONTACT US</p>
-            <h2>Have a question?<br>We're here to help.</h2>
+
+            <p class="eyebrow dark">
+              CONTACT US
+            </p>
+
+            <h2>
+              Have a question?<br>
+              We're here to help.
+            </h2>
+
           </div>
-          <p>For vehicle availability, rental rates or general inquiries, contact Prosper Car Hire directly.</p>
+
+          <p>
+            For vehicle availability, rental rates or general inquiries,
+            contact Prosper Car Hire directly.
+          </p>
+
         </div>
+
 
         <div class="contact-grid">
-          <a class="contact-card" href="https://wa.me/260774824415" target="_blank" rel="noopener">
-            <span class="contact-icon">💬</span>
-            <div><small>WHATSAPP</small><strong>+260 774 824 415</strong><span>Chat with us →</span></div>
+
+          <!-- WhatsApp -->
+          <a
+            class="contact-card"
+            href="https://wa.me/260774824415"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <span class="contact-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </span>
+
+            <div>
+
+              <small>WHATSAPP</small>
+
+              <strong>
+                +260 774 824 415
+              </strong>
+
+              <span>
+                Chat with us →
+              </span>
+
+            </div>
+
           </a>
-          <a class="contact-card" href="tel:+260774824415">
-            <span class="contact-icon">☎</span>
-            <div><small>PHONE</small><strong>+260 774 824 415</strong><span>Call us →</span></div>
+
+
+          <!-- Phone -->
+          <a
+            class="contact-card"
+            href="tel:+260774824415"
+          >
+
+            <span class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+
+            <div>
+
+              <small>PHONE</small>
+
+              <strong>
+                +260 774 824 415
+              </strong>
+
+              <span>
+                Call us →
+              </span>
+
+            </div>
+
           </a>
-          <a class="contact-card" href="mailto:mthuzibanda7@gmail.com">
-            <span class="contact-icon">✉</span>
-            <div><small>EMAIL</small><strong>mthuzibanda7@gmail.com</strong><span>Send an email →</span></div>
+
+
+          <!-- Email -->
+          <a
+            class="contact-card"
+            href="mailto:mthuzibanda7@gmail.com"
+          >
+
+            <span class="contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+
+            <div>
+
+              <small>EMAIL</small>
+
+              <strong>
+                mthuzibanda7@gmail.com
+              </strong>
+
+              <span>
+                Send an email →
+              </span>
+
+            </div>
+
           </a>
+
+
+          <!-- Location -->
           <div class="contact-card">
-            <span class="contact-icon">📍</span>
-            <div><small>LOCATION</small><strong>Lusaka, Zambia</strong><span>Serving Lusaka and beyond</span></div>
+
+            <span class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+
+            <div>
+
+              <small>LOCATION</small>
+
+              <strong>
+                Lusaka, Zambia
+              </strong>
+
+              <span>
+                Serving Lusaka and beyond
+              </span>
+
+            </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- ==================== FOOTER ==================== -->
   <footer class="footer">
+
     <div class="container footer-inner">
+
       <a class="brand footer-brand" href="#home">
-        <span class="brand-mark">P</span>
-        <span><strong>Prosper</strong><small>CAR HIRE</small></span>
+
+       <img class="prosper-logo" src="prosperlogo1.jpg" alt="Prosper Car Hire Logo">
+
+        <span>
+          <strong>Prosper</strong>
+          <small>CAR HIRE</small>
+        </span>
+
       </a>
-      <p>© <span id="year"></span> Prosper Car Hire. All rights reserved.</p>
-      <a href="#home">Back to top ↑</a>
+
+
+      <p>
+        © <span id="year"></span> Prosper Car Hire. All rights reserved.
+      </p>
+
+
+      <a href="#home">
+        Back to top ↑
+      </a>
+
     </div>
+
   </footer>
 
-  <a class="floating-whatsapp" href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20interested%20in%20hiring%20a%20car." target="_blank" rel="noopener" aria-label="Chat with Prosper Car Hire on WhatsApp">💬</a>
 
+  <!-- Floating WhatsApp Button -->
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/260774824415?text=Hello%20Prosper%20Car%20Hire%2C%20I%27m%20interested%20in%20hiring%20a%20car."
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat with Prosper Car Hire on WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
+
 </body>
 </html>
